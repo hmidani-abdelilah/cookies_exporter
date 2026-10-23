@@ -1,0 +1,133 @@
+╰─ python -m yt_dlp --cookies-from-browser "chrome:Default" --simulate -v \
+  "https://youtu.be/IOitbk4qqlk"
+
+[debug] Command-line config: ['--cookies-from-browser', 'chrome:Default', '--simulate', '-v', 'https://youtu.be/IOitbk4qqlk']
+[debug] System config "/etc/yt-dlp.conf": []
+[debug] Encodings: locale UTF-8, fs utf-8, pref UTF-8, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2026.08.19 from yt-dlp/yt-dlp [594bd50c2] (pip)
+[debug] Python 3.13.5 (CPython x86_64 64bit) - Linux-6.12.111+deb13-amd64-x86_64-with-glibc2.41 (OpenSSL 3.5.7 9 Jun 2026, glibc 2.41)
+[debug] exe versions: ffmpeg 7.1.5 (fdk,setts), ffprobe 7.1.5, rtmpdump 2.4
+[debug] Optional libraries: Cryptodome-3.24.1, brotli-1.2.0, certifi-2026.07.22, mutagen-1.48.1, requests-2.34.2, secretstorage-3.5.0, sqlite3-3.46.1, urllib3-2.8.0, websockets-17.2, yt_dlp_ejs-0.8.0
+[debug] JS runtimes: none
+[debug] Proxy map: {}
+Extracting cookies from chrome
+[debug] Extracting cookies from: "/home/xq/.config/google-chrome/Default/Cookies"
+[Cookies] Loading cookie      0/   291[debug] detected desktop environment: GNOME
+[debug] Chosen keyring: GNOMEKEYRING
+Extracted 283 cookies from chrome
+[debug] cookie version breakdown: {'v10': 0, 'v11': 291, 'other': 0, 'unencrypted': 0}
+[debug] Request Handlers: urllib, requests, websockets
+[debug] Plugin directories: none
+[debug] Loaded 1744 extractors
+[debug] [youtube] Found YouTube account cookies
+[debug] [youtube] [pot] PO Token Providers: none
+[debug] [youtube] [pot] PO Token Cache Providers: memory
+[debug] [youtube] [pot] PO Token Cache Spec Providers: webpo
+[debug] [youtube] [jsc] JS Challenge Providers: bun (unavailable), deno (unavailable), node (unavailable), quickjs (unavailable)
+[youtube] Extracting URL: https://youtu.be/IOitbk4qqlk
+[youtube] IOitbk4qqlk: Downloading webpage
+[youtube] IOitbk4qqlk: Downloading web embedded client config
+[debug] [youtube] Forcing "main" player JS variant for player 67288f35
+        original url = /s/player/67288f35/player_es6.vflset/en_US/base.js
+[debug] [youtube] IOitbk4qqlk: Detected experiment to bind GVS PO Token to video ID for web_embedded client
+[youtube] IOitbk4qqlk: Downloading player 67288f35-main
+[youtube] IOitbk4qqlk: Downloading web embedded player API JSON
+[youtube] IOitbk4qqlk: This video is age-restricted and YouTube is requiring account age-verification; some formats may be missing
+[debug] [youtube] IOitbk4qqlk: web_embedded player response playability status: UNPLAYABLE
+[youtube] IOitbk4qqlk: Downloading web creator client config
+[debug] [youtube] IOitbk4qqlk: Detected experiment to bind GVS PO Token to video ID for web_creator client
+[youtube] IOitbk4qqlk: Downloading web creator player API JSON
+[youtube] IOitbk4qqlk: Downloading tv downgraded player API JSON
+[debug] [youtube] IOitbk4qqlk: tv_downgraded player response playability status: UNPLAYABLE
+WARNING: [youtube] IOitbk4qqlk: n challenge solving failed: Some formats may be missing. Ensure you have a supported JavaScript runtime and challenge solver script distribution installed. Review any warnings presented before this message. For more details, refer to  https://github.com/yt-dlp/yt-dlp/wiki/EJS
+WARNING: [youtube] IOitbk4qqlk: web_creator client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=web_creator.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide
+[debug] [youtube] IOitbk4qqlk: Detected experiment to bind GVS PO Token to video ID for web client
+[debug] [youtube] IOitbk4qqlk: Some web client https formats have been skipped as they are missing a URL. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+ERROR: [youtube] IOitbk4qqlk: Sorry, this content is age-restricted
+  File "/home/xq/Media_Downloader/.venv/lib/python3.13/site-packages/yt_dlp/extractor/common.py", line 765, in extract
+    ie_result = self._real_extract(url)
+  File "/home/xq/Media_Downloader/.venv/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_video.py", line 4076, in _real_extract
+    self.raise_no_formats(reason, expected=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xq/Media_Downloader/.venv/lib/python3.13/site-packages/yt_dlp/extractor/common.py", line 1272, in raise_no_formats
+    raise ExtractorError(msg, expected=expected, video_id=video_id)
+
+
+╭─    ~/Media_Downloader  on   main !3 ?3 ▓▒░·······································································░▒▓ 1 ✘  took 12s   Media_Downloader   system   at 13:36:18  
+╰─ python -m yt_dlp --cookies-from-browser "chrome:Default" --simulate -v \
+  "https://youtu.be/IOitbk4qqlk"
+
+[debug] Command-line config: ['--cookies-from-browser', 'chrome:Default', '--simulate', '-v', 'https://youtu.be/IOitbk4qqlk']
+[debug] System config "/etc/yt-dlp.conf": []
+[debug] Encodings: locale UTF-8, fs utf-8, pref UTF-8, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2026.08.19 from yt-dlp/yt-dlp [594bd50c2] (pip)
+[debug] Python 3.13.5 (CPython x86_64 64bit) - Linux-6.12.111+deb13-amd64-x86_64-with-glibc2.41 (OpenSSL 3.5.7 9 Jun 2026, glibc 2.41)
+[debug] exe versions: ffmpeg 7.1.5 (fdk,setts), ffprobe 7.1.5, rtmpdump 2.4
+[debug] Optional libraries: Cryptodome-3.24.1, brotli-1.2.0, certifi-2026.07.22, mutagen-1.48.1, requests-2.34.2, secretstorage-3.5.0, sqlite3-3.46.1, urllib3-2.8.0, websockets-17.2, yt_dlp_ejs-0.8.0
+[debug] JS runtimes: none
+[debug] Proxy map: {}
+Extracting cookies from chrome
+[debug] Extracting cookies from: "/home/xq/.config/google-chrome/Default/Cookies"
+[Cookies] Loading cookie      0/   291[debug] detected desktop environment: GNOME
+[debug] Chosen keyring: GNOMEKEYRING
+Extracted 283 cookies from chrome
+[debug] cookie version breakdown: {'v10': 0, 'v11': 291, 'other': 0, 'unencrypted': 0}
+[debug] Request Handlers: urllib, requests, websockets
+[debug] Plugin directories: none
+[debug] Loaded 1744 extractors
+[debug] [youtube] Found YouTube account cookies
+[debug] [youtube] [pot] PO Token Providers: none
+[debug] [youtube] [pot] PO Token Cache Providers: memory
+[debug] [youtube] [pot] PO Token Cache Spec Providers: webpo
+[debug] [youtube] [jsc] JS Challenge Providers: bun (unavailable), deno (unavailable), node (unavailable), quickjs (unavailable)
+[youtube] Extracting URL: https://youtu.be/IOitbk4qqlk
+[youtube] IOitbk4qqlk: Downloading webpage
+[youtube] IOitbk4qqlk: Downloading web embedded client config
+[debug] [youtube] Forcing "main" player JS variant for player 67288f35
+        original url = /s/player/67288f35/player_es6.vflset/en_US/base.js
+[debug] [youtube] IOitbk4qqlk: Detected experiment to bind GVS PO Token to video ID for web_embedded client
+[youtube] IOitbk4qqlk: Downloading player 67288f35-main
+[youtube] IOitbk4qqlk: Downloading web embedded player API JSON
+[youtube] IOitbk4qqlk: This video is age-restricted and YouTube is requiring account age-verification; some formats may be missing
+[debug] [youtube] IOitbk4qqlk: web_embedded player response playability status: UNPLAYABLE
+[youtube] IOitbk4qqlk: Downloading web creator client config
+[debug] [youtube] IOitbk4qqlk: Detected experiment to bind GVS PO Token to video ID for web_creator client
+[youtube] IOitbk4qqlk: Downloading web creator player API JSON
+[youtube] IOitbk4qqlk: Downloading tv downgraded player API JSON
+[debug] [youtube] IOitbk4qqlk: tv_downgraded player response playability status: UNPLAYABLE
+WARNING: [youtube] IOitbk4qqlk: n challenge solving failed: Some formats may be missing. Ensure you have a supported JavaScript runtime and challenge solver script distribution installed. Review any warnings presented before this message. For more details, refer to  https://github.com/yt-dlp/yt-dlp/wiki/EJS
+WARNING: [youtube] IOitbk4qqlk: web_creator client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=web_creator.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide
+[debug] [youtube] IOitbk4qqlk: Detected experiment to bind GVS PO Token to video ID for web client
+[debug] [youtube] IOitbk4qqlk: Some web client https formats have been skipped as they are missing a URL. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+ERROR: [youtube] IOitbk4qqlk: Sorry, this content is age-restricted
+  File "/home/xq/Media_Downloader/.venv/lib/python3.13/site-packages/yt_dlp/extractor/common.py", line 765, in extract
+    ie_result = self._real_extract(url)
+  File "/home/xq/Media_Downloader/.venv/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_video.py", line 4076, in _real_extract
+    self.raise_no_formats(reason, expected=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xq/Media_Downloader/.venv/lib/python3.13/site-packages/yt_dlp/extractor/common.py", line 1272, in raise_no_formats
+    raise ExtractorError(msg, expected=expected, video_id=video_id)
+
+
+╭─    ~/Media_Downloader  on   main !3 ?3 ▓▒░········································································░▒▓ 1 ✘  took 5s   Media_Downloader   system   at 13:41:52  
+╰─ python -m yt_dlp --cookies-from-browser "chrome:Default" \
+  --extractor-args "youtube:player_client=mweb,default" \
+  -F "https://youtu.be/IOitbk4qqlk"
+
+Extracting cookies from chrome
+Extracted 283 cookies from chrome
+[youtube] Extracting URL: https://youtu.be/IOitbk4qqlk
+[youtube] IOitbk4qqlk: Downloading webpage
+[youtube] IOitbk4qqlk: Downloading mweb client config
+[youtube] IOitbk4qqlk: Downloading mweb player API JSON
+[youtube] IOitbk4qqlk: Downloading web embedded client config
+[youtube] IOitbk4qqlk: Downloading player 67288f35-main
+[youtube] IOitbk4qqlk: Downloading web embedded player API JSON
+[youtube] IOitbk4qqlk: This video is age-restricted and YouTube is requiring account age-verification; some formats may be missing
+[youtube] IOitbk4qqlk: Downloading web creator client config
+[youtube] IOitbk4qqlk: Downloading web creator player API JSON
+[youtube] IOitbk4qqlk: Downloading tv downgraded player API JSON
+WARNING: [youtube] IOitbk4qqlk: n challenge solving failed: Some formats may be missing. Ensure you have a supported JavaScript runtime and challenge solver script distribution installed. Review any warnings presented before this message. For more details, refer to  https://github.com/yt-dlp/yt-dlp/wiki/EJS
+WARNING: [youtube] IOitbk4qqlk: mweb client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=mweb.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide
+WARNING: [youtube] IOitbk4qqlk: web_creator client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=web_creator.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide
+ERROR: [youtube] IOitbk4qqlk: Sorry, this content is age-restricted

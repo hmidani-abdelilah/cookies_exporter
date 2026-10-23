@@ -1,0 +1,5 @@
+yt-dlp[default]
+aria2
+secretstorage
+deno
+bgutil-ytdlp-pot-provider
